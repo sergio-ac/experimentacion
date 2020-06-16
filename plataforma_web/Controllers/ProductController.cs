@@ -18,12 +18,11 @@ namespace plataforma_web.Controllers
         public IEnumerable<Product> Get()
         {
         
-            return Enumerable.Range(1, 5).Select(index => new Product
-            {
-                
-                
-            })
-            .ToArray();
+            
+        }
+        [HttpPost]
+        public void InsertarProducto(){
+            
         }
 
     }

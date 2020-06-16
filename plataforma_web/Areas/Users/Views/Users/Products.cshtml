@@ -1,0 +1,12 @@
+
+@using plataforma_web.Areas.Users.Models;
+@model FirstTryImage;
+@ViewData["Title"] = "Products";
+<form asp-action="Products" enctype="multipart/form-data">   
+
+    <input asp-for="ImageCaption"/>
+    <input asp-for="ImageDescription"/>
+    <input asp-for="MyImage"/>
+
+    <input type="submit"/>
+</form>
